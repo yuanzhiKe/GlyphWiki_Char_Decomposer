@@ -27,3 +27,7 @@ The unicode like sequence (e.g. 'u53e3-01') is the unicode of the radical. And t
     上地宏一,「KAGEシステム: グリフ配信と生成文字品質の向上にむけて」,CHISE Symposium 2003, 東京, 2003年3月15日.
     
 ## What does this project do?
+
+These codes are used to decompose every Chinese characters into radicals in the file. i.e. Replace every Chinese character with the unicode of the radical with a segmentation symbol. e.g: 
+
+    '呵' ----> $$u53e3-01$$u53ef-02
