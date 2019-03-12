@@ -31,3 +31,9 @@ The unicode like sequence (e.g. 'u53e3-01') is the unicode of the radical. And t
 These codes are used to decompose every Chinese characters into radicals in the file. i.e. Replace every Chinese character with the unicode of the radical with a segmentation symbol. e.g: 
 
     '呵' ----> $$u53e3-01$$u53ef-02
+
+## Usage
+
+    python main.py -i [input_file] -o [ouput_file]
+    
+GlyphWiki dump will be automatically downloaded, and parsed. A .pkl containing the mapping dictionary of the characters and radicals will be generated as well.
